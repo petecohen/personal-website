@@ -1,0 +1,57 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const blogPosts = await getCollection('blog', ({ data }) => {
+    return data.draft !== true && !data.externalUrl; // Only generate pages for non-external posts
+  });
+
+  return blogPosts.map(post => ({
+    params: { slug: post.slug },
+    props: { post }
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+
+<Layout
+  title={`${post.data.title} - Pete Cohen`}
+  description={post.data.summary}
+>
+  <article class="max-w-3xl mx-auto px-6 py-16">
+    <header class="mb-8">
+      <a
+        href="/blog"
+        class="text-sm text-[var(--color-accent)] hover:text-[var(--color-accent-hover)] mb-4 inline-block"
+      >
+        ← All posts
+      </a>
+      <h1 class="text-4xl font-bold mb-2">
+        {post.data.title}
+      </h1>
+      <time class="text-[var(--color-text-muted)]">
+        {post.data.date.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        })}
+      </time>
+    </header>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <footer class="mt-12 pt-8 border-t border-[var(--color-border)]">
+      <a
+        href="/blog"
+        class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]"
+      >
+        ← Back to all posts
+      </a>
+    </footer>
+  </article>
+</Layout>

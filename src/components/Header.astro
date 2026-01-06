@@ -1,0 +1,44 @@
+---
+const currentPath = Astro.url.pathname;
+const isActive = (path: string) => {
+  if (path === '/' && currentPath === '/') return true;
+  if (path !== '/' && currentPath.startsWith(path)) return true;
+  return false;
+};
+---
+
+<header class="border-b border-[var(--color-border)] sticky top-0 bg-[var(--color-background)] bg-opacity-95 backdrop-blur-sm z-50">
+  <nav class="max-w-4xl mx-auto px-6 py-4">
+    <div class="flex items-center justify-between">
+      <a href="/" class="text-lg font-semibold hover:text-[var(--color-accent)] transition-colors">
+        Pete Cohen
+      </a>
+      <ul class="flex gap-6 text-sm">
+        <li>
+          <a
+            href="/weeknotes"
+            class={`hover:text-[var(--color-accent)] transition-colors ${isActive('/weeknotes') ? 'text-[var(--color-accent)] font-medium' : ''}`}
+          >
+            Weeknotes
+          </a>
+        </li>
+        <li>
+          <a
+            href="/blog"
+            class={`hover:text-[var(--color-accent)] transition-colors ${isActive('/blog') ? 'text-[var(--color-accent)] font-medium' : ''}`}
+          >
+            Blog
+          </a>
+        </li>
+        <li>
+          <a
+            href="/now"
+            class={`hover:text-[var(--color-accent)] transition-colors ${isActive('/now') ? 'text-[var(--color-accent)] font-medium' : ''}`}
+          >
+            Now
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

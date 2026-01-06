@@ -1,16 +1,89 @@
 ---
-
+import Layout from '../layouts/Layout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Pete Cohen">
+  <div class="max-w-4xl mx-auto px-6 py-16">
+    <div class="grid md:grid-cols-[300px_1fr] gap-12 items-start">
+      <!-- Photo placeholder - replace with your actual photo -->
+      <div class="order-2 md:order-1">
+        <div class="aspect-square bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800 rounded-2xl flex items-center justify-center">
+          <span class="text-6xl">📸</span>
+        </div>
+        <p class="text-xs text-[var(--color-text-muted)] mt-2 text-center">
+          Replace this placeholder with your photo at<br />
+          <code class="text-xs">public/photo.jpg</code>
+        </p>
+      </div>
+
+      <div class="order-1 md:order-2">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          Hi, I'm Pete Cohen
+        </h1>
+
+        <div class="prose text-lg text-[var(--color-text-muted)] mb-8">
+          <p>
+            I'm a [your role/profession] based in [location]. I work on [what you do].
+          </p>
+          <p>
+            This is my personal space on the internet where I share weeknotes,
+            thoughts, and links to things I've published.
+          </p>
+        </div>
+
+        <!-- Social Links -->
+        <div class="flex gap-4 mb-12">
+          <a
+            href="https://linkedin.com/in/yourprofile"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-4 py-2 border border-[var(--color-border)] rounded-lg hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-colors"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://bsky.app/profile/yourhandle"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-4 py-2 border border-[var(--color-border)] rounded-lg hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-colors"
+          >
+            Bluesky
+          </a>
+          <a
+            href="mailto:your.email@example.com"
+            class="px-4 py-2 border border-[var(--color-border)] rounded-lg hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-colors"
+          >
+            Email
+          </a>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="border-t border-[var(--color-border)] pt-8">
+          <h2 class="text-sm font-semibold text-[var(--color-text-muted)] uppercase tracking-wide mb-4">
+            On this site
+          </h2>
+          <ul class="space-y-3">
+            <li>
+              <a href="/weeknotes" class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)] text-lg">
+                Weeknotes →
+              </a>
+              <p class="text-sm text-[var(--color-text-muted)]">Weekly reflections and updates</p>
+            </li>
+            <li>
+              <a href="/blog" class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)] text-lg">
+                Blog →
+              </a>
+              <p class="text-sm text-[var(--color-text-muted)]">Longer posts and links to published work</p>
+            </li>
+            <li>
+              <a href="/now" class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)] text-lg">
+                Now →
+              </a>
+              <p class="text-sm text-[var(--color-text-muted)]">What I'm focused on right now</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

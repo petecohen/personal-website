@@ -1,0 +1,87 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const weeknotes = await getCollection('weeknotes', ({ data }) => {
+    return data.draft !== true;
+  });
+
+  return weeknotes.map(weeknote => ({
+    params: {
+      year: String(weeknote.data.year),
+      week: `week-${String(weeknote.data.weekNumber).padStart(2, '0')}`
+    },
+    props: { weeknote }
+  }));
+}
+
+const { weeknote } = Astro.props;
+const { Content } = await weeknote.render();
+
+// Get all weeknotes for prev/next navigation
+const allWeeknotes = await getCollection('weeknotes', ({ data }) => {
+  return data.draft !== true;
+});
+
+const sortedWeeknotes = allWeeknotes.sort((a, b) =>
+  b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const currentIndex = sortedWeeknotes.findIndex(w => w.id === weeknote.id);
+const nextWeeknote = currentIndex > 0 ? sortedWeeknotes[currentIndex - 1] : null;
+const prevWeeknote = currentIndex < sortedWeeknotes.length - 1 ? sortedWeeknotes[currentIndex + 1] : null;
+---
+
+<Layout
+  title={`${weeknote.data.title} - Pete Cohen`}
+  description={weeknote.data.summary || `Weeknote for week ${weeknote.data.weekNumber}, ${weeknote.data.year}`}
+>
+  <article class="max-w-3xl mx-auto px-6 py-16">
+    <header class="mb-8">
+      <a
+        href="/weeknotes"
+        class="text-sm text-[var(--color-accent)] hover:text-[var(--color-accent-hover)] mb-4 inline-block"
+      >
+        ← All weeknotes
+      </a>
+      <h1 class="text-4xl font-bold mb-2">
+        {weeknote.data.title}
+      </h1>
+      <time class="text-[var(--color-text-muted)]">
+        {weeknote.data.date.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        })}
+      </time>
+    </header>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <nav class="mt-12 pt-8 border-t border-[var(--color-border)] flex justify-between">
+      <div>
+        {prevWeeknote && (
+          <a
+            href={`/weeknotes/${prevWeeknote.data.year}/week-${String(prevWeeknote.data.weekNumber).padStart(2, '0')}`}
+            class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]"
+          >
+            ← {prevWeeknote.data.title}
+          </a>
+        )}
+      </div>
+      <div class="text-right">
+        {nextWeeknote && (
+          <a
+            href={`/weeknotes/${nextWeeknote.data.year}/week-${String(nextWeeknote.data.weekNumber).padStart(2, '0')}`}
+            class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]"
+          >
+            {nextWeeknote.data.title} →
+          </a>
+        )}
+      </div>
+    </nav>
+  </article>
+</Layout>
