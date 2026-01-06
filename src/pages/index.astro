@@ -5,15 +5,13 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Pete Cohen">
   <div class="max-w-4xl mx-auto px-6 py-16">
     <div class="grid md:grid-cols-[300px_1fr] gap-12 items-start">
-      <!-- Photo placeholder - replace with your actual photo -->
+      <!-- Photo -->
       <div class="order-2 md:order-1">
-        <div class="aspect-square bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800 rounded-2xl flex items-center justify-center">
-          <span class="text-6xl">📸</span>
-        </div>
-        <p class="text-xs text-[var(--color-text-muted)] mt-2 text-center">
-          Replace this placeholder with your photo at<br />
-          <code class="text-xs">public/photo.jpg</code>
-        </p>
+        <img
+          src="/Photo.jpg"
+          alt="Pete Cohen"
+          class="aspect-square object-cover rounded-2xl w-full"
+        />
       </div>
 
       <div class="order-1 md:order-2">
