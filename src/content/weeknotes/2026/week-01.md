@@ -3,29 +3,32 @@ title: "Week 01, 2026"
 date: 2026-01-05
 weekNumber: 1
 year: 2026
-summary: "Starting the new year with a new website and weeknotes practice"
+summary: "A new year, and seeking to start weeknotes as a new habit"
 ---
 
-## Highlights
+A new year, and seeking to start weeknotes as a new habit.
 
-Started the year by finally setting up this website and committing to writing weeknotes. Inspired by Alice Bartlett, Denis Defreyne, and others in the weeknotes community.
+Enjoyed an extended version of that liminal week between Christmas and New Year.
+
+![](/2026-01-05/2026-01-05.jpeg)
 
 ## Work & Projects
 
-- Built this personal site using Astro and Tailwind CSS
-- Set up deployment pipeline with GitHub and Netlify
-- Created a simple structure for weeknotes and blog posts
+Started the week in a park with my Vibrance colleague Fred, musing about the year ahead. We landed on a recognition of a need to somehow create experiences for people where they can deeply think together about the implications of everything that is emerging around us.
 
-## Reading & Watching
+Having just finished up after a few years at RMIT, lots of new work kicking off in my portfolio:
+- An assessment of a financial services firm with the Conversational Design Institute
+- A new and ambitious sprint with an Indian mobility client with Boundaryless
+- Chatting to a startup about a fractional CTO role
 
-- Explored various weeknotes sites for inspiration
-- Read about the weeknotes community on IndieWeb
+Ramping up with my professional services firm client with Vibrance. Lots of great progress made last year building AI proof of concepts, and now preparing to start pilots with customers. Exciting times.
 
-## Links
+## Reading
 
-- [How to write weeknotes](https://medium.com/deloitte-digital-connect/how-to-write-weeknotes-for-your-digital-project-26a6bfef38d6) - Great guide on getting started
-- [IndieWeb week notes](https://indieweb.org/week_note) - Overview of the practice
+Finished reading *Trust* by Hernán Díaz. Rare for me to read fiction, but I enjoyed it.
 
-## Looking ahead
+## Life
 
-Next week: Write about what I'm actually working on rather than just the meta process of setting up weeknotes!
+Chasing kittens around the house!
+
+![](/2026-01-05/2026-01-05-1.jpeg)
