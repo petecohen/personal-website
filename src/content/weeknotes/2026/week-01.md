@@ -10,7 +10,7 @@ A new year, and seeking to start weeknotes as a new habit.
 
 Enjoyed an extended version of that liminal week between Christmas and New Year.
 
-![](/2026-01-05/2026-01-05.jpeg)
+![](/2026-01-05/2026-01-05-1.jpeg)
 
 ## Work & Projects
 
@@ -31,4 +31,4 @@ Finished reading *Trust* by Hernán Díaz. Rare for me to read fiction, but I en
 
 Chasing kittens around the house!
 
-![](/2026-01-05/2026-01-05-1.jpeg)
+![](/2026-01-05/2026-01-05.jpeg)
