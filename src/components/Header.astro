@@ -38,6 +38,14 @@ const isActive = (path: string) => {
             Now
           </a>
         </li>
+        <li>
+          <a
+            href="/contact"
+            class={`hover:text-[var(--color-accent)] transition-colors ${isActive('/contact') ? 'text-[var(--color-accent)] font-medium' : ''}`}
+          >
+            Contact
+          </a>
+        </li>
       </ul>
     </div>
   </nav>
