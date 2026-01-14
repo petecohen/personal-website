@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
   const blogPosts = await getCollection('blog', ({ data }) => {
-    return data.draft !== true && !data.externalUrl; // Only generate pages for non-external posts
+    return data.draft !== true;
   });
 
   return blogPosts.map(post => ({
@@ -39,6 +39,18 @@ const { Content } = await post.render();
           day: 'numeric'
         })}
       </time>
+      {post.data.externalUrl && (
+        <p class="text-sm text-[var(--color-text-muted)] mt-3">
+          Originally published at <a
+            href={post.data.externalUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]"
+          >
+            {new URL(post.data.externalUrl).hostname.replace('www.', '')}
+          </a>
+        </p>
+      )}
     </header>
 
     <div class="prose">
