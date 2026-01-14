@@ -5,8 +5,6 @@ summary: "Are we heading for a perfect storm of organisational corrosion?"
 externalUrl: "https://www.linkedin.com/pulse/rust-never-sleeps-cost-silence-uncertain-times-pete-cohen-5t3pc/"
 ---
 
-*Originally published on [LinkedIn](https://www.linkedin.com/pulse/rust-never-sleeps-cost-silence-uncertain-times-pete-cohen-5t3pc/)*
-
 ![Ship with sacrificial anode](/photo-krzysztof-kowalik-unsplash.png)
 *Photo by Krzysztof Kowalik on Unsplash*
 

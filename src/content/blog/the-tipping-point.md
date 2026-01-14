@@ -5,8 +5,6 @@ summary: "The question is no longer 'is this real?'. It's 'is this plausible wit
 externalUrl: "https://www.vibrance.au/post/the-tipping-point"
 ---
 
-*Originally published at [Vibrance](https://www.vibrance.au/post/the-tipping-point)*
-
 It was a photo of Einstein playing a Peavey Razer electric guitar that did it for me. Not the fact that it was fake - that was already assumed by everyone in the comments. The conversation was about whether Einstein would have played a Peavey. It didn't match his vibe, apparently.
 
 That's when I knew we'd crossed over. The question is no longer "is this real?". It's "is this plausible within the fiction?"
