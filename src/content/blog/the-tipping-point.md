@@ -11,7 +11,7 @@ It was a photo of Einstein playing a Peavey Razer electric guitar that did it fo
 
 That's when I knew we'd crossed over. The question is no longer "is this real?". It's "is this plausible within the fiction?"
 
-![Einstein playing guitar](/Einstein Photo from Reddit.jpeg)
+![Einstein playing guitar](/einstein-photo-reddit.jpeg)
 *Source: Reddit*
 
 When I first saw that image on my social media feed a couple of weeks ago, I naturally assumed it had been AI generated. It was only when I searched for the source that I discovered it is over 15 years old - an example of what was possible in the early days of Photoshop. Waves of synthetic information have been lapping at the shore for a while. But it's different now. Few of us ever could master Photoshop, with its hundreds of little buttons and loupes and layers and whatnot. And even if you could, it still took hours of work to create anything decent. Now anyone can instruct an LLM what to do, and the result will be instant, free and near perfect. Whether it's a photo, a report or an essay, reaching for an AI tool is often easier than doing the labour of creating from scratch.
