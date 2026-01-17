@@ -1,6 +1,6 @@
 ---
 title: "Week 02, 2026"
-date: 2026-01-12
+date: 2026-01-11
 weekNumber: 2
 year: 2026
 summary: "A new year, and seeking to start weeknotes as a new habit"
