@@ -3,32 +3,28 @@ title: "Week 01, 2026"
 date: 2026-01-05
 weekNumber: 1
 year: 2026
-summary: "A new year, and seeking to start weeknotes as a new habit"
+summary: "Why I'm starting to write weeknotes and what I hope to get out of the practice"
 ---
 
-A new year, and seeking to start weeknotes as a new habit.
+## Why Weeknotes?
 
-Enjoyed an extended version of that liminal week between Christmas and New Year.
+I've been thinking about starting a regular writing practice for a while. Weeknotes seem like the perfect format - low pressure, personal, and focused on reflection rather than perfect prose.
 
-![](/2026-01-05/2026-01-05-1.jpeg)
+## What I've Learned
 
-## Work & Projects
+From exploring existing weeknotes sites, I've noticed a few patterns:
 
-Started the week in a park with my Vibrance colleague Fred, musing about the year ahead. We landed on a recognition of a need to somehow create experiences for people where they can deeply think together about the implications of everything that is emerging around us.
+- **Consistency matters more than perfection** - Alice Bartlett calls hers "weaknotes" because they're "quite bad," but she's written 382+ of them
+- **There's no single format** - Some people use bullet points, others write narratives
+- **Mix work and personal** - The best weeknotes blend professional updates with personal reflections
+- **Keep it sustainable** - Simple formats last longer than elaborate ones
 
-Having just finished up after a few years at RMIT, lots of new work kicking off in my portfolio:
-- An assessment of a financial services firm with the Conversational Design Institute
-- A new and ambitious sprint with an Indian mobility client with Boundaryless
-- Chatting to a startup about a fractional CTO role
+## My Approach
 
-Ramping up with my professional services firm client with Vibrance. Lots of great progress made last year building AI proof of concepts, and now preparing to start pilots with customers. Exciting times.
+I'm going to keep it simple:
+- Write on Sunday evenings
+- Use flexible sections (highlights, work, reading, links)
+- No pressure to cover everything
+- Allow the format to evolve
 
-## Reading
-
-Finished reading *Trust* by Hernán Díaz. Rare for me to read fiction, but I enjoyed it.
-
-## Life
-
-Chasing kittens around the house!
-
-![](/2026-01-05/2026-01-05.jpeg)
+Let's see how this goes!
