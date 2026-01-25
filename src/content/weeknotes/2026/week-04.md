@@ -12,7 +12,7 @@ This week I really felt like I was living the portfolio career life that I've be
 
 ## Sending merch
 
-One decision I made was to take the posting of merchandise back on rather than outsourcing it. I was initially concerned about the amount of time involved in packing and posting records, because you easily find an hour has passed by the time all is said and done in getting it packed and to the post office and back. But then, while I was in the flow of packing CDs and writing notes to people today, I realised that's what it's really all about and having the opportunity to connect directly with people who value our music enough to buy it is a really special and important thing to do.
+One decision I made was to take the posting of [Smith & Cohen](https://smithandcohen.bandcamp.com/album/half-life) merchandise back on rather than outsourcing it. I was initially concerned about the amount of time involved in packing and posting records, because you easily find an hour has passed by the time all is said and done in getting it packed and to the post office and back. But then, while I was in the flow of packing CDs and writing notes to people today, I realised that's what it's really all about and having the opportunity to connect directly with people who value our music enough to buy it is a really special and important thing to do.
 
 ## Bed Bugs website
 
