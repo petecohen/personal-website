@@ -14,10 +14,6 @@ This week I really felt like I was living the portfolio career life that I've be
 
 One decision I made was to take the posting of merchandise back on rather than outsourcing it. I was initially concerned about the amount of time involved in packing and posting records, because you easily find an hour has passed by the time all is said and done in getting it packed and to the post office and back. But then, while I was in the flow of packing CDs and writing notes to people today, I realised that's what it's really all about and having the opportunity to connect directly with people who value our music enough to buy it is a really special and important thing to do.
 
-![](/2026-01-25/IMG_0038.jpg)
-
-![](/2026-01-25/IMG_0041.jpg)
-
 ## Bed Bugs website
 
 I used [Claude Code](https://claude.com/product/claude-code) to create a [website](https://bed-bugs.netlify.app) for my daughter's Bed Bugs merchandise business. As always, it was mind blowing how quickly and easily I could get to a decent result and it's been interesting iterating on it with my daughter. Using voice transcription to talk to Claude Code made me realise that she just won't know any different - that the way to create software is just to talk to the computer, see it instantly manifest, and then keep iterating and tweaking it to your heart's content.
@@ -33,3 +29,7 @@ I've been using the [Streaks](https://streaksapp.com) app, which I've had on my 
 ## Arylic LP10 AirPlay Streamer
 
 One of the best things I've managed to achieve this summer is cleaning up my workspace and creating an area I can sit and write. To further enhance that, I just bought [this device](https://www.arylic.com/products/lp10-music-streamer), which means I can stream and control music when I'm not at my main standing desk. It's a real quality of life improvement and amazing what you can get these days for not very much money.
+
+![](/2026-01-25/IMG_0038.jpg)
+
+![](/2026-01-25/IMG_0041.jpg)
