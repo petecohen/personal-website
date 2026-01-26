@@ -7,6 +7,61 @@ import Layout from '../layouts/Layout.astro';
   description="Pete Cohen's music career - from Sodastream to Smith & Cohen and beyond"
 >
   <div class="max-w-4xl mx-auto px-6 py-16">
+    <!-- Photo Gallery -->
+    <section class="mb-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <a href="#photo1" class="group cursor-pointer">
+          <img
+            src="/PeteCohenBass.jpg"
+            alt="Pete Cohen playing bass"
+            class="w-full h-auto rounded-lg border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors"
+          />
+        </a>
+        <a href="#photo2" class="group cursor-pointer">
+          <img
+            src="/PeteSaw_fortunapop_19.jpg.webp"
+            alt="Pete Cohen performing"
+            class="w-full h-auto rounded-lg border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors"
+          />
+        </a>
+        <a href="#photo3" class="group cursor-pointer">
+          <img
+            src="/Sodastream_fortunapop_5.jpg.webp"
+            alt="Sodastream performing"
+            class="w-full h-auto rounded-lg border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors"
+          />
+        </a>
+        <a href="#photo4" class="group cursor-pointer">
+          <img
+            src="/Sodastream_fortunapop_10.jpg.webp"
+            alt="Sodastream performing"
+            class="w-full h-auto rounded-lg border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors"
+          />
+        </a>
+      </div>
+      <p class="text-sm text-[var(--color-text-muted)] mt-4 text-center">
+        Photo by <a href="https://www.photographise.com/music/sngjg4vr02r8lzh6q5rh8vog4smwgw" target="_blank" rel="noopener noreferrer" class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]">David Monteith-Hodge</a>
+      </p>
+    </section>
+
+    <!-- Lightbox overlays -->
+    <div id="photo1" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="/PeteCohenBass.jpg" alt="Pete Cohen playing bass" />
+    </div>
+    <div id="photo2" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="/PeteSaw_fortunapop_19.jpg.webp" alt="Pete Cohen performing" />
+    </div>
+    <div id="photo3" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="/Sodastream_fortunapop_5.jpg.webp" alt="Sodastream performing" />
+    </div>
+    <div id="photo4" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="/Sodastream_fortunapop_10.jpg.webp" alt="Sodastream performing" />
+    </div>
+
     <header class="mb-12">
       <h1 class="text-4xl md:text-5xl font-bold mb-6">Music</h1>
       <div class="prose text-lg text-[var(--color-text-muted)]">
@@ -310,3 +365,47 @@ import Layout from '../layouts/Layout.astro';
 
   </div>
 </Layout>
+
+<style>
+  /* Lightbox styles */
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .lightbox:target {
+    display: flex;
+  }
+
+  .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1;
+    transition: opacity 0.2s;
+  }
+
+  .lightbox-close:hover {
+    opacity: 0.7;
+  }
+</style>
