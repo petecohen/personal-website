@@ -20,8 +20,8 @@ import Layout from '../layouts/Layout.astro';
     </header>
 
     <!-- Key Resources -->
-    <section class="mb-16 p-8 bg-[var(--color-accent)] bg-opacity-5 border border-[var(--color-accent)] border-opacity-20 rounded-lg">
-      <h2 class="text-2xl font-bold mb-6">Definitive Sources</h2>
+    <section class="mb-16 p-8 border border-[var(--color-border)] rounded-lg">
+      <h2 class="text-2xl font-bold mb-6">Key Resources</h2>
       <div class="grid md:grid-cols-2 gap-6">
         <div>
           <h3 class="font-semibold text-lg mb-2">
@@ -50,7 +50,7 @@ import Layout from '../layouts/Layout.astro';
           <p class="text-sm text-[var(--color-text-muted)]">The band that shaped my musical journey</p>
         </div>
       </div>
-      <div class="mt-6 pt-6 border-t border-[var(--color-accent)] border-opacity-20">
+      <div class="mt-6 pt-6 border-t border-[var(--color-border)]">
         <h3 class="font-semibold text-lg mb-2">
           <a
             href="https://ameliema.home.xs4all.nl/sodastream/"
@@ -111,22 +111,9 @@ import Layout from '../layouts/Layout.astro';
           </div>
           <div class="mt-4">
             <h4 class="font-semibold mb-2">Releases:</h4>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <a href="https://www.discogs.com/release/32847166-Smith-Cohen-Hard-Life" target="_blank" rel="noopener noreferrer" class="group">
-                <div class="aspect-square mb-2 overflow-hidden rounded border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors">
-                  <img src="https://i.discogs.com/5_mM7nKmZ8_IPqQRBue_6hb97QBg53c9BhBl5QyCuR8/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyODQ3/MTY2LTE3Mzc2NDcw/NDMtMTMzOC5qcGVn.jpeg" alt="Half Life" class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="text-sm font-medium">Half Life</p>
-                <p class="text-xs text-[var(--color-text-muted)]">2025</p>
-              </a>
-              <a href="https://www.discogs.com/release/10825931-Sodastream-Little-By-Little" target="_blank" rel="noopener noreferrer" class="group">
-                <div class="aspect-square mb-2 overflow-hidden rounded border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors">
-                  <img src="https://i.discogs.com/izaHFV5Z3h86Cax5UCl2RioleN1_2JD89KvgaNyN7QM/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwODI1/OTMxLTE1MDQ0MDkz/NzYtNTczMy5qcGVn.jpeg" alt="Little By Little" class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="text-sm font-medium">Little By Little</p>
-                <p class="text-xs text-[var(--color-text-muted)]">2017</p>
-              </a>
-            </div>
+            <ul class="text-sm text-[var(--color-text-muted)] space-y-1">
+              <li>• <em>Half Life</em> (2025)</li>
+            </ul>
           </div>
         </div>
 
@@ -160,66 +147,17 @@ import Layout from '../layouts/Layout.astro';
             </a>
           </div>
           <div class="mt-4">
-            <h4 class="font-semibold mb-2">Albums:</h4>
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-              <a href="https://www.discogs.com/release/15314024-Sodastream-Letter-From-Melbourne" target="_blank" rel="noopener noreferrer" class="group">
-                <div class="aspect-square mb-2 overflow-hidden rounded border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors">
-                  <img src="https://i.discogs.com/M-qyTu8DKVYW6ioHXlfp-YbQHMvivAq3jLHOhOxLBzU/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MzE0/MDI0LTE1OTA2NTQy/MzMtNTgxNC5qcGVn.jpeg" alt="Letter From Melbourne" class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="text-sm font-medium">Letter From Melbourne</p>
-                <p class="text-xs text-[var(--color-text-muted)]">2020</p>
-              </a>
-              <a href="https://www.discogs.com/release/755973-Sodastream-Reservations" target="_blank" rel="noopener noreferrer" class="group">
-                <div class="aspect-square mb-2 overflow-hidden rounded border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors">
-                  <img src="https://i.discogs.com/5aUIYgr8892WRA6rRD71Dc1laWTTh03Tjhx5InQJJpI/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1NTk3/My0xNTY5MzQxNzY4/LTQwODEuanBlZw.jpeg" alt="Reservations" class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="text-sm font-medium">Reservations</p>
-                <p class="text-xs text-[var(--color-text-muted)]">2006</p>
-              </a>
-              <a href="https://www.discogs.com/release/860763-Sodastream-A-Minor-Revival" target="_blank" rel="noopener noreferrer" class="group">
-                <div class="aspect-square mb-2 overflow-hidden rounded border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors">
-                  <img src="https://i.discogs.com/3JpkL7PS-MD1mQtSKWzd_CNytpRg5Qja0Ebz83Dhz_M/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2MDc2/My0xNTIzNjMyNDEw/LTU1MDAucG5n.jpeg" alt="A Minor Revival" class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="text-sm font-medium">A Minor Revival</p>
-                <p class="text-xs text-[var(--color-text-muted)]">2003</p>
-              </a>
-              <a href="https://www.discogs.com/release/755987-Sodastream-The-Hill-For-Company" target="_blank" rel="noopener noreferrer" class="group">
-                <div class="aspect-square mb-2 overflow-hidden rounded border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors">
-                  <img src="https://i.discogs.com/e2mi_gPJFYQdeLHbsLb0rxLlJroWMmEF34eXTiFlY3c/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0Nzcz/NTYtMTQ4MTI3MjM1/Ni03MTgxLmpwZWc.jpeg" alt="The Hill For Company" class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="text-sm font-medium">The Hill For Company</p>
-                <p class="text-xs text-[var(--color-text-muted)]">2001</p>
-              </a>
-              <a href="https://www.discogs.com/release/2498264-Sodastream-Looks-Like-A-Russian" target="_blank" rel="noopener noreferrer" class="group">
-                <div class="aspect-square mb-2 overflow-hidden rounded border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors">
-                  <img src="https://i.discogs.com/0NF7ABCkNGGAKv6GTIU4LWzY7u4Qqf0CDHL11o2vudA/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0OTgy/NjQtMTUwODA5NDA0/My0xMDMyLmpwZWc.jpeg" alt="Looks Like A Russian" class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="text-sm font-medium">Looks Like A Russian</p>
-                <p class="text-xs text-[var(--color-text-muted)]">2000</p>
-              </a>
-              <a href="https://www.discogs.com/release/2775466-Sodastream-Practical-Footwear" target="_blank" rel="noopener noreferrer" class="group">
-                <div class="aspect-square mb-2 overflow-hidden rounded border border-[var(--color-border)] group-hover:border-[var(--color-accent)] transition-colors">
-                  <img src="https://i.discogs.com/BLniHv1rc4y8F8a4cDB8yXWQtr-SMfYGQOe3H_0T3sw/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NzU0/NjYtMTU1MDkzNDY3/OS00Nzc3LmpwZWc.jpeg" alt="Practical Footwear" class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="text-sm font-medium">Practical Footwear</p>
-                <p class="text-xs text-[var(--color-text-muted)]">1998</p>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Khancoban -->
-        <div class="border-l-4 border-[var(--color-accent)] pl-6">
-          <div class="flex items-start justify-between mb-4">
-            <div>
-              <h3 class="text-2xl font-bold mb-2">Khancoban</h3>
-              <p class="text-[var(--color-text-muted)]">2008</p>
-            </div>
-          </div>
-          <div class="mt-4">
-            <h4 class="font-semibold mb-2">Releases:</h4>
+            <h4 class="font-semibold mb-2">Selected Releases:</h4>
             <ul class="text-sm text-[var(--color-text-muted)] space-y-1">
-              <li>• <em>Limbs May Fall</em> (2008)</li>
+              <li>• <em>Letter From Melbourne</em> (2020)</li>
+              <li>• <em>Little By Little</em> (2017)</li>
+              <li>• <em>Reservations</em> (2006)</li>
+              <li>• <em>A Minor Revival</em> (2003)</li>
+              <li>• <em>The Hill For Company</em> (2001)</li>
+              <li>• <em>Looks Like A Russian</em> (2000)</li>
+              <li>• <em>Enjoy</em> (2001)</li>
+              <li>• <em>Turnstyle</em> (1999)</li>
+              <li>• <em>Practical Footwear</em> (1998)</li>
             </ul>
           </div>
         </div>
@@ -228,6 +166,7 @@ import Layout from '../layouts/Layout.astro';
         <div class="border-l-4 border-[var(--color-border)] pl-6">
           <h3 class="text-xl font-bold mb-4">Other Projects</h3>
           <div class="grid md:grid-cols-2 gap-4 text-sm text-[var(--color-text-muted)]">
+            <div>Khancoban</div>
             <div>Lee Memorial</div>
             <div>RPM Trio</div>
             <div>The Best Friends Group</div>
@@ -245,66 +184,38 @@ import Layout from '../layouts/Layout.astro';
         Along the way, I'm honoured to have had the opportunity to play with many bands as a guest musician, and sometimes as a member. These moments of connection are precious to me, and transcend a mere friendship.
       </p>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid md:grid-cols-2 gap-6">
         <!-- Architecture in Helsinki -->
         <div class="border border-[var(--color-border)] rounded-lg p-6">
-          <div class="flex gap-4 mb-4">
-            <a href="https://www.discogs.com/release/755996-Architecture-In-Helsinki-In-Case-We-Die" target="_blank" rel="noopener noreferrer" class="flex-shrink-0">
-              <img src="https://i.discogs.com/PYnGtn0MmfeH_MsEdHB5prd-KWlr3FIreQut8GSGxDM/rs:fit/g:sm/q:90/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1NTk5/Ni0xNDQ1NTQ5ODIw/LTkyNzMuanBlZw.jpeg" alt="In Case We Die" class="w-20 h-20 object-cover rounded border border-[var(--color-border)]" loading="lazy" />
-            </a>
-            <div>
-              <h3 class="font-bold text-lg mb-1">Architecture in Helsinki</h3>
-              <p class="text-sm text-[var(--color-text-muted)]">2005</p>
-            </div>
-          </div>
+          <h3 class="font-bold text-lg mb-2">Architecture in Helsinki</h3>
+          <p class="text-sm text-[var(--color-text-muted)] mb-3">2005</p>
           <ul class="text-sm text-[var(--color-text-muted)] space-y-1">
-            <li>• <em>In Case We Die</em></li>
+            <li>• <em>In Case We Die</em> (2005)</li>
           </ul>
         </div>
 
         <!-- Luluc -->
         <div class="border border-[var(--color-border)] rounded-lg p-6">
-          <div class="flex gap-4 mb-4">
-            <a href="https://www.discogs.com/release/1568775-Luluc-Dear-Hamlyn" target="_blank" rel="noopener noreferrer" class="flex-shrink-0">
-              <img src="https://i.discogs.com/EQbhCS_zPDmDBmInf2HGTlCL_zGguL64Hxa0PBasbJo/rs:fit/g:sm/q:90/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Njg3/NzUtMTM1OTg5MTU3/NC5qcGVn.jpeg" alt="Dear Hamlyn" class="w-20 h-20 object-cover rounded border border-[var(--color-border)]" loading="lazy" />
-            </a>
-            <div>
-              <h3 class="font-bold text-lg mb-1">Luluc</h3>
-              <p class="text-sm text-[var(--color-text-muted)]">2008</p>
-            </div>
-          </div>
+          <h3 class="font-bold text-lg mb-2">Luluc</h3>
+          <p class="text-sm text-[var(--color-text-muted)] mb-3">2008</p>
           <ul class="text-sm text-[var(--color-text-muted)] space-y-1">
-            <li>• <em>Dear Hamlyn</em></li>
+            <li>• <em>Dear Hamlyn</em> (2008)</li>
           </ul>
         </div>
 
         <!-- Machine Translations -->
         <div class="border border-[var(--color-border)] rounded-lg p-6">
-          <div class="flex gap-4 mb-4">
-            <a href="https://www.discogs.com/release/755975-Machine-Translations-Venus-Traps-Fly" target="_blank" rel="noopener noreferrer" class="flex-shrink-0">
-              <img src="https://i.discogs.com/KZMqYJCWU1YoTsp7Ek50kj8e2NKUtOTsArT4PvdKMP4/rs:fit/g:sm/q:90/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1NTk3/NS0xNDQ3MzYzMDE3/LTY3MjQuanBlZw.jpeg" alt="Venus Traps Fly" class="w-20 h-20 object-cover rounded border border-[var(--color-border)]" loading="lazy" />
-            </a>
-            <div>
-              <h3 class="font-bold text-lg mb-1">Machine Translations</h3>
-              <p class="text-sm text-[var(--color-text-muted)]">2004</p>
-            </div>
-          </div>
+          <h3 class="font-bold text-lg mb-2">Machine Translations</h3>
+          <p class="text-sm text-[var(--color-text-muted)] mb-3">2004</p>
           <ul class="text-sm text-[var(--color-text-muted)] space-y-1">
-            <li>• <em>Venus Traps Fly</em></li>
+            <li>• <em>Venus Traps Fly</em> (2004)</li>
           </ul>
         </div>
 
         <!-- Clare Bowditch and the Feeding Set -->
         <div class="border border-[var(--color-border)] rounded-lg p-6">
-          <div class="flex gap-4 mb-4">
-            <a href="https://www.discogs.com/release/3477356-Clare-Bowditch-And-The-Feeding-Set-What-Was-Left" target="_blank" rel="noopener noreferrer" class="flex-shrink-0">
-              <img src="https://i.discogs.com/X8K37mBNkxn3IGvGa2unYf-UNuVvk8R2-kQVGN0VO1o/rs:fit/g:sm/q:90/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0Nzcz/NTYtMTQ5MzE2MTY4/MC05NTQyLmpwZWc.jpeg" alt="What Was Left" class="w-20 h-20 object-cover rounded border border-[var(--color-border)]" loading="lazy" />
-            </a>
-            <div>
-              <h3 class="font-bold text-lg mb-1">Clare Bowditch and the Feeding Set</h3>
-              <p class="text-sm text-[var(--color-text-muted)]">2005</p>
-            </div>
-          </div>
+          <h3 class="font-bold text-lg mb-2">Clare Bowditch and the Feeding Set</h3>
+          <p class="text-sm text-[var(--color-text-muted)] mb-3">2005</p>
           <ul class="text-sm text-[var(--color-text-muted)] space-y-1">
             <li>• <em>What Was Left</em></li>
           </ul>
@@ -377,16 +288,10 @@ import Layout from '../layouts/Layout.astro';
         <!-- Brea Acton -->
         <div class="border border-[var(--color-border)] rounded-lg p-6">
           <h3 class="font-bold text-lg mb-2">Brea Acton</h3>
-          <div class="text-sm">
-            <a
-              href="https://breaacton.bandcamp.com/album/we-are-listening"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]"
-            >
-              Bandcamp →
-            </a>
-          </div>
+          <p class="text-sm text-[var(--color-text-muted)] mb-3">2015</p>
+          <ul class="text-sm text-[var(--color-text-muted)] space-y-1">
+            <li>• <em>We Are Listening</em> (2015)</li>
+          </ul>
         </div>
       </div>
 
@@ -406,10 +311,6 @@ import Layout from '../layouts/Layout.astro';
     <section class="mb-16">
       <h2 class="text-3xl font-bold mb-8">Notable Compilations</h2>
       <div class="grid md:grid-cols-2 gap-4 text-sm">
-        <div class="border-l-2 border-[var(--color-border)] pl-4">
-          <div class="font-semibold">Turnstyle</div>
-          <div class="text-[var(--color-text-muted)]">Sodastream (1999)</div>
-        </div>
         <div class="border-l-2 border-[var(--color-border)] pl-4">
           <div class="font-semibold">Banter (A Candle Records Collection)</div>
           <div class="text-[var(--color-text-muted)]">Various (2000)</div>
