@@ -32,6 +32,14 @@ const isActive = (path: string) => {
         </li>
         <li>
           <a
+            href="/music"
+            class={`hover:text-[var(--color-accent)] transition-colors ${isActive('/music') ? 'text-[var(--color-accent)] font-medium' : ''}`}
+          >
+            Music
+          </a>
+        </li>
+        <li>
+          <a
             href="/now"
             class={`hover:text-[var(--color-accent)] transition-colors ${isActive('/now') ? 'text-[var(--color-accent)] font-medium' : ''}`}
           >
