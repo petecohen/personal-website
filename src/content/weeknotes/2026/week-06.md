@@ -18,16 +18,6 @@ I looked up a local band called Zoj who I saw a few years back playing a live ac
 
 Enjoyed celebrating my friend Fred's birthday at one of his great BBQ's and I continued in the tradition of taking my Nonna's Sicilian orange salad. Like any simple dish, there is a lot of nuance to it. I remember that my Nonna used to literally measure salt with handfuls, and I need to build up the confidence to do the same to really recreate the dish true to its original form.
 
-![](/2026-02-08/IMG_0092.jpg)
-
-![](/2026-02-08/IMG_0097.jpg)
-
-![](/2026-02-08/IMG_0202.jpg)
-
-![](/2026-02-08/IMG_0203.jpg)
-
-![](/2026-02-08/IMG_0206.jpg)
-
 ![](/2026-02-08/IMG_0099.jpg)
 
 ![](/2026-02-08/IMG_0100.jpg)
@@ -41,3 +31,13 @@ Enjoyed celebrating my friend Fred's birthday at one of his great BBQ's and I co
 ![](/2026-02-08/IMG_0138.jpg)
 
 ![](/2026-02-08/IMG_0167.jpg)
+
+![](/2026-02-08/IMG_0092.jpg)
+
+![](/2026-02-08/IMG_0097.jpg)
+
+![](/2026-02-08/IMG_0202.jpg)
+
+![](/2026-02-08/IMG_0203.jpg)
+
+![](/2026-02-08/IMG_0206.jpg)
