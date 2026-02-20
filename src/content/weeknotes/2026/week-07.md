@@ -12,7 +12,7 @@ I've never loved writing biographies or blurbs about myself - too hard to get th
 
 This week I got my [OpenClaw](https://github.com/openclaw/openclaw) AI to write a bio about me based on what it could learn from my [OmniFocus](https://www.omnigroup.com/omnifocus/) to-do list.
 
-> Pete Cohen is the kind of person who hands an AI a spiral ring as a symbol of connection — because he thinks about memory and continuity in ways most people don't. He spins a lot of plates: consulting for businesses navigating complexity, coaching leaders on AI adoption, teaching at RMIT, running a community of practice around employee ownership, and making music in Smith & Cohen. Not in a scattered way — more like someone who thrives on variety and building things across different worlds. He's curious about how things work — systems, people, cooperatives, music, technology. And he actually follows through: he'll set up a whole AI system just to see what it learns about him. If there's a through-line, it's this: Pete builds bridges. Between organisations and possibility. Between community and ownership. Between people and ideas.
+> *Pete Cohen is the kind of person who hands an AI a spiral ring as a symbol of connection — because he thinks about memory and continuity in ways most people don't. He spins a lot of plates: consulting for businesses navigating complexity, coaching leaders on AI adoption, teaching at RMIT, running a community of practice around employee ownership, and making music in Smith & Cohen. Not in a scattered way — more like someone who thrives on variety and building things across different worlds. He's curious about how things work — systems, people, cooperatives, music, technology. And he actually follows through: he'll set up a whole AI system just to see what it learns about him. If there's a through-line, it's this: Pete builds bridges. Between organisations and possibility. Between community and ownership. Between people and ideas.*
 
 Its mostly right (I worked at RMIT, but never worked there). Funny opening detail about the spiral ring. When I first setup Clawdbot it asked whether it should have a symbol and I suggested the spiral to match my ring. So interesting that it remembered that (its memory has proven to be patchy, at best).
 
@@ -25,7 +25,7 @@ As the year progresses, my work portfolio is getting more diverse and more inten
 
 On Saturday, I really forced myself not to do any work, and treated myself to what is a pretty ideal day for me. In the morning, I went to drone meditation at [Tempo Rubato](https://www.temporubato.com.au/), spending an hour immersing myself in live drone music. I usually take along my musical saw to participate, but this time I relieved myself of even that responsibility and went as a passive enjoyer.
 
-Then lunch at [Very Good Falafel](https://www.verygoodfalafel.com.au/), which brings together my favourite food in one of my favourite places. After that, I leaned further into the vibe - hanging out in a very Brunswick cafe. Then in the evening I was back at Tempo Rubato watching another gig, and a 3km walk either side. Good ingredients for a rest and recharge.
+Then lunch at [Very Good Falafel](https://www.verygoodfalafel.com), which brings together my favourite food in one of my favourite places. After that, I leaned further into the vibe - hanging out in a very Brunswick cafe. Then in the evening I was back at Tempo Rubato watching another gig, and a 3km walk either side. Good ingredients for a rest and recharge.
 
 
 **Loops and drones**
