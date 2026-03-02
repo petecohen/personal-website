@@ -19,7 +19,7 @@ externalUrl: "https://www.vibrance.au/post/it-s-time-to-step-up"
 
 <span data-proof="authored" data-by="ai:claude">The momentum of AI over the past few years has been unavoidable. All of our news feeds are saturated with the headlines. But unless you are hands-on with the technology beyond using chatbots such as Copilot or ChatGPT, you might not be aware that something meaningfully shifted at the end of 2025. People who are following AI closely are starting to freak out - to put it plainly and bluntly.</span>
 
-<span data-proof="authored" data-by="ai:claude">Matt Shumer wrote an article called</span> *<span data-proof="authored" data-by="ai:claude">Something Big Is Happening</span>*<span data-proof="authored" data-by="ai:claude">, which went viral at the beginning of February:</span>
+<span data-proof="authored" data-by="ai:claude">Matt Shumer wrote an article called [*Something Big Is Happening*](https://x.com/mattshumer_/status/2021256989876109403?s=46&t=okP_xMcZ-JqmcFLxDMbd5w), which went viral at the beginning of February:</span>
 
 <span data-proof="authored" data-by="ai:claude">![Matt Shumer tweet - Something Big Is Happening](/Blog-Images/Matt%20Shumer%20Tweet%20-Something%20Big%20Is%20Happening.png)</span>
 
