@@ -1,6 +1,6 @@
 ---
 title: "It's Time To Step Up"
-date: 2026-02-14
+date: 2026-02-28
 summary: "My core concern is that most people in decision-making roles don't yet have enough awareness to get us through this period safely."
 externalUrl: "https://www.vibrance.au/post/it-s-time-to-step-up"
 ---
@@ -43,7 +43,7 @@ externalUrl: "https://www.vibrance.au/post/it-s-time-to-step-up"
 
 <span data-proof="authored" data-by="ai:claude">Some practical suggestions to Australian business leaders:</span>
 
-1. **<span data-proof="authored" data-by="ai:claude">Read Dario Amodei's essays.</span>** <span data-proof="authored" data-by="ai:claude">Not because he is some oracle or guru, but because he takes the time to unpack the holistic picture and does his best to provide a balanced perspective. They are long reads - you'll need to invest a couple of hours. But they go into the depth and nuance that we need in order to have the conversations we need to have. Start with</span> *[<span data-proof="authored" data-by="ai:claude">Machines of Loving Grace</span>](https://darioamodei.com/machines-of-loving-grace)* <span data-proof="authored" data-by="ai:claude">(October 2024, a more optimistic view) and then read</span> *<span data-proof="authored" data-by="ai:claude">The Adolescence of Technology</span>* <span data-proof="authored" data-by="ai:claude">(January 2026, that delves into the risks).</span>
+1. **<span data-proof="authored" data-by="ai:claude">Read Dario Amodei's essays.</span>** <span data-proof="authored" data-by="ai:claude">Not because he is some oracle or guru, but because he takes the time to unpack the holistic picture and does his best to provide a balanced perspective. They are long reads - you'll need to invest a couple of hours. But they go into the depth and nuance that we need in order to have the conversations we need to have. Start with</span> *[<span data-proof="authored" data-by="ai:claude">Machines of Loving Grace</span>](https://darioamodei.com/machines-of-loving-grace)* <span data-proof="authored" data-by="ai:claude">(October 2024, a more optimistic view) and then read</span> *[<span data-proof="authored" data-by="ai:claude">The Adolescence of Technology</span>](https://darioamodei.com/essay/the-adolescence-of-technology)* <span data-proof="authored" data-by="ai:claude">(January 2026, that delves into the risks).</span>
 
 2. **<span data-proof="authored" data-by="ai:claude">Ensure that there are diverse perspectives in the room.</span>** <span data-proof="authored" data-by="ai:claude">The topic of AI often gets lumped into the "Information Technology (IT)" bucket, but in reality, it includes economics, business models, people development, government policy etc. While many technical leaders (CIOs, engineers etc) do have a broad and informed perspective, don't just rely on the folks from the IT department to take care of AI. We all need to play our part, and not just at a superficial level.</span>
 
