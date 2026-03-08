@@ -6,7 +6,7 @@ year: 2026
 summary: "Vibrance newsletter, The New Threshold experiment, Brunswick Street Festival, and reading about artists in the boardroom"
 ---
 
-**[<span data-proof="authored" data-by="ai:claude">Article</span>](https://vibrance.au/so/b7PoOMSAv)**
+**[<span data-proof="authored" data-by="ai:claude">Turning Tides</span>](https://vibrance.au/so/b7PoOMSAv)**
 
 <span data-proof="authored" data-by="ai:claude">This month I curated Vibrance's newsletter Turning Tides. The theme I built on is a growing feeling that we are approaching the vertical part of the exponential curve. I'm fairly tapped into the software development community, and the mood is at fever pitch. Something really shifted a few months ago — we are now in a world where software can write software, almost perfectly. It still requires human input and oversight, but what's already possible is truly remarkable.</span>
 
@@ -24,6 +24,8 @@ summary: "Vibrance newsletter, The New Threshold experiment, Brunswick Street Fe
 
 <span data-proof="authored" data-by="ai:claude">Nice to be amongst it at the Brunswick Street Festival. A lot less music this year — there were some young bands playing some variant of heavy metal (I've never known the genre well enough to say exactly which).</span>
 
+<a href="https://public-pc.s3.amazonaws.com/BrunswickStFestival_2026-03-01.mov">Watch video</a>
+
 **<span data-proof="authored" data-by="ai:claude">Reading</span>**
 
 <span data-proof="authored" data-by="ai:claude">There's a great piece called</span> [<span data-proof="authored" data-by="ai:claude">"A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox"</span>](https://www.henrikkarlsson.xyz/p/search-query)<span data-proof="authored" data-by="ai:claude">, which I really believe. Part of my motivation to write more is exactly that. I also appreciate it in the other direction — reading other people's writing, reaching out, and making internet friendships.</span>
@@ -32,6 +34,6 @@ summary: "Vibrance newsletter, The New Threshold experiment, Brunswick Street Fe
 
 * [<span data-proof="authored" data-by="ai:claude">Why your organisation needs someone "unemployable"</span>](https://blog.dougbelshaw.com/unemployable/) <span data-proof="authored" data-by="ai:claude">by Doug Belshaw, heard through</span> [<span data-proof="authored" data-by="ai:claude">The Jaymo</span>](https://thejaymo.net/2026/02/18/world-literacy/)
 
-* [<span data-proof="authored" data-by="ai:claude">What if Artists Were Your Strategic Weapon in the Boardroom?</span>](https://ourmanifesto.substack.com/p/what-if-artists-were-your-strategic) <span data-proof="authored" data-by="ai:claude">by Annalise Lewis, heard through Josie Gibson</span>
+* [<span data-proof="authored" data-by="ai:claude">What if Artists Were Your Strategic Weapon in the Boardroom?</span>](https://ourmanifesto.substack.com/p/what-if-artists-were-your-strategic) <span data-proof="authored" data-by="ai:claude">by Annalise Lewis, heard through <a href="https://mailchi.mp/8da766a2a87f/the-catalyst-network-summer-2026">Josie Gibson</a></span>
 
 <span data-proof="authored" data-by="ai:claude">![](/2026-03-01/BrunswickStFestival_2026-03-08.jpg)</span>
