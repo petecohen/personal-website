@@ -6,7 +6,7 @@ year: 2026
 summary: "Vibrance newsletter, The New Threshold experiment, Brunswick Street Festival, and reading about artists in the boardroom"
 ---
 
-**[<span data-proof="authored" data-by="ai:claude">Turning Tides</span>](https://vibrance.au/so/b7PoOMSAv)**
+**[<span data-proof="authored" data-by="ai:claude">It's Time to Step Up</span>](https://vibrance.au/so/b7PoOMSAv)**
 
 <span data-proof="authored" data-by="ai:claude">This month I curated Vibrance's newsletter Turning Tides. The theme I built on is a growing feeling that we are approaching the vertical part of the exponential curve. I'm fairly tapped into the software development community, and the mood is at fever pitch. Something really shifted a few months ago — we are now in a world where software can write software, almost perfectly. It still requires human input and oversight, but what's already possible is truly remarkable.</span>
 
