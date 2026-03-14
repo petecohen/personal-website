@@ -12,11 +12,11 @@ My mate Peter has become quite obsessed with paddle boarding, so I took the chan
 
 **At the pub**
 
-I went to see my old mate Andrew McCubbin play at The Union Hotel in Brunswick. He's one of those people who just lives and breathes music, so it was great to see him on stage again with a new band. A suburban, free show, a predominantly 50+ audience — feels like the antithesis of the commercial music machine, and I'm so glad it still exists. Not to be taken for granted.
+I went to see my old mate [Andrew McCubbin](https://www.andrewmccubbin.com) play at The Union Hotel in Brunswick. He's one of those people who just lives and breathes music, so it was great to see him on stage again with a new band. A suburban, free show, a predominantly 50+ audience — feels like the antithesis of the commercial music machine, and I'm so glad it still exists. Not to be taken for granted.
 
 **Building blocks**
 
-It was a pleasure to have a call with [Doug Belshaw](https://blog.dougbelshaw.com), who I reached out to last week after coming across his writing. Not surprisingly, it didn't feel like a first conversation, given so many threads of common interest and shared sensibilities about the way the world works. Doug is building some really cool "folk software" which has got me really inspired.
+It was a pleasure to have a call with [Doug Belshaw](https://blog.dougbelshaw.com), who I reached out to last week after coming across his writing. Not surprisingly, it didn't feel like a first conversation, given so many threads of common interest and shared sensibilities about the way the world works. Doug is building some really cool ["folk software"](https://substack.move37.ai/p/folk-software) which has got me really inspired.
 
 ![](/2025-03-08/IMG_0292.jpg)
 
