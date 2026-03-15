@@ -14,7 +14,7 @@ I am the beneficiary of open source software all day every day (as all of us are
 
 **FloatTimer**
 
-Continuing in the theme, I created a Mac app called [FloatTimer](https://floattimer.netlify.app) that solves a problem for me. Often when I am facilitating workshops I like to run timeboxed activities, and it is useful to have a timer on the screen. Sometimes I achieve this with a separate iPad and hardware switcher that can do a picture in picture overlay — but that involves a lot of gear and a fairly elaborate setup. So I developed FloatTimer, which achieves this through a simple Mac app that places a countdown timer on your screen, and that will hover over a PowerPoint presentation even when it is in full screen mode. I also revisited and spruced up a web based timer that I started a while back. I hope someone else finds these useful!
+Continuing in the theme, I created a Mac app called [FloatTimer](https://floattimer.netlify.app) that solves a problem for me. Often when I am facilitating workshops I like to run timeboxed activities, and it is useful to have a timer on the screen. Sometimes I achieve this with a separate iPad and hardware switcher that can do a picture in picture overlay — but that involves a lot of gear and a fairly elaborate setup. So I developed FloatTimer, which achieves this through a simple Mac app that places a countdown timer on your screen, and that will hover over a PowerPoint presentation even when it is in full screen mode. I also revisited and spruced up a [web based timer](https://workshop-timer-site.netlify.app) that I started a while back. I hope someone else finds these useful!
 
 **Adelaide**
 
