@@ -4,7 +4,7 @@ date: 2026-04-25
 summary: "A single footswitch press simultaneously controls the audio mixer and switches camera scenes on a separate machine, all over the local network."
 ---
 
-I've been live streaming music performances since 2013, starting on Stageit back when the whole concept felt pretty fringe. Since then I've moved through a few platforms and a lot of iterations of the rig, always chasing the same two things: make the stream as engaging as possible for the audience, and reduce the cognitive load on the performers so we can actually focus on playing.
+I've been live streaming music performances since 2013, starting on [Stageit](https://www.stageit.com/) back when the whole concept felt pretty fringe. Since then I've moved through a few platforms and a lot of iterations of the rig, always chasing the same two things: make the stream as engaging as possible for the audience, and reduce the cognitive load on the performers so we can actually focus on playing.
 
 When you're a duo performing live — in our case, Smith & Cohen — you don't have a camera operator, a sound engineer sitting out front, or a producer calling shots. You're doing everything yourselves. So every piece of the production that can be automated or reduced to a single action is a win. The fewer things you have to think about between songs, the better the performance.
 
@@ -28,13 +28,13 @@ I wanted one footswitch press to handle everything.
 
 Here's what's in the rig:
 
-**Mac Studio** — the streaming brain. It runs Ecamm Live with four cameras connected. The XR18 connects to the Mac Studio via USB as the audio interface that drives Ecamm. It also runs Keyboard Maestro, which acts as a remote trigger receiver.
+**Mac Studio** — the streaming brain. It runs [Ecamm Live](https://www.ecamm.com/mac/ecammlive/) with four cameras connected. The XR18 connects to the Mac Studio via USB as the audio interface that drives Ecamm. It also runs [Keyboard Maestro](https://www.keyboardmaestro.com/main/), which acts as a remote trigger receiver.
 
-**Behringer XR18** — a digital mixer that handles all our audio. It connects to the Mac Studio via USB as an audio interface, and is also on the network (via Ethernet) where it accepts OSC control commands. I typically run X-AIR Edit on the Mac Studio and an iPad simultaneously for mixing.
+**[Behringer XR18](https://www.behringer.com/en/products/0605-aad)** — a digital mixer that handles all our audio. It connects to the Mac Studio via USB as an audio interface, and is also on the network (via Ethernet) where it accepts OSC control commands. I typically run X-AIR Edit on the Mac Studio and an iPad simultaneously for mixing.
 
 **Intel MacBook Pro** — sits on the performer side of the rig. The MC8 Pro connects to it via USB, and it's connected to a separate audio interface that sends our audio into the XR18. It's on the same network (via Wi-Fi) as the XR18 and Mac Studio, and runs the Python script that bridges everything together.
 
-**Morningstar MC8 Pro** — an eight-switch MIDI foot controller. Three switches are dedicated to the three streaming modes. It connects via USB to the Intel MacBook Pro.
+**[Morningstar MC8 Pro](https://www.morningstar.io/mc8-pro)** — an eight-switch MIDI foot controller. Three switches are dedicated to the three streaming modes. It connects via USB to the Intel MacBook Pro.
 
 ## The signal chain
 
