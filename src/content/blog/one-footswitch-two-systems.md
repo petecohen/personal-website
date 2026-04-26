@@ -62,7 +62,7 @@ This is one of those assumptions that sounds reasonable but doesn't hold up. The
 
 ## The Python script
 
-The script is around 180 lines and does a few things:
+The script is on GitHub at [petecohen/xr18-scene-controller](https://github.com/petecohen/xr18-scene-controller) — around 180 lines, and it does a few things:
 
 **Auto-discovers the XR18** on the local network by broadcasting an OSC `/xinfo` query. The mixer responds with its IP address, name, model, and firmware version. This means you never need to hardcode an IP — just make sure the MacBook Pro is on the same Wi-Fi network as the mixer.
 
@@ -127,7 +127,7 @@ For anyone wanting to build something similar, here's what you need:
 - Python 3 with `python-osc`, `mido`, `python-rtmidi`, and `requests`
 - Keyboard Maestro on the streaming Mac (with web server enabled)
 - Ecamm Live (or potentially OBS or any streaming software that responds to keyboard shortcuts)
-- The control script — about 180 lines of Python
+- The control script — about 180 lines of Python, [open source on GitHub](https://github.com/petecohen/xr18-scene-controller)
 
 **Key protocols:**
 - MIDI over USB (MC8 to MacBook Pro)
